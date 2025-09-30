@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "imageSrc": "src/assets/Cabo San Lucas.jpg",
+    "title": "Cabo San Lucas",
+    "body": "Great spas and great views"
+  },
+  {
+    "id": 2,
+    "imageSrc": "src/assets/Euphoria Retreat.jpg",
+    "title": "Euphoria Retreat",
+    "body": "Relaxing spa experience"
+  },
+  {
+    "id": 3,
+    "imageSrc": "src/assets/Cal-a-Vie-Spa.jpeg",
+    "title": "Cal-a-Vie Spa",
+    "body": "Unique European and Californian spa experience"
+  },
+  {
+    "id": 4,
+    "imageSrc": "src/assets/Spa Eastman.jpg",
+    "title": "Spa Eastman",
+    "body": "Forest retreat with many amenities"
+  },
+  {
+    "id": 5,
+    "imageSrc": "src/assets/Hilton Sedona Resort.jpg",
+    "title": "Hilton Sedona Resort",
+    "body": "Hiking trails and free swimming"
+  }
+]

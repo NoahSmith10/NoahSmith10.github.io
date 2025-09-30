@@ -1,0 +1,50 @@
+<!--
+ * SlideShow Enhancement One - TypeScript, HTML, CSS Version
+ * 
+ * This is the HTML file for the SlideShow enhancement project.
+ * 
+ * Author: Noah Smith
+ * Date: 2024-06-15
+ * Class: CS 499
+ */ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top 5 Resort Destinations</title>
+  </head>
+  <body style="display: flex; justify-content: center; align-items: center">
+    <div id="root">
+      <div
+        class=""
+        id="slideshow"
+        style="display: flex; flex-direction: column; align-items: center"
+      >
+        <div id="slide">
+          <img
+            id="slide-image"
+            alt="Cabo San Lucas"
+            src="src/assets/Cabo San Lucas.jpg"
+            style="width: 800px; height: 600px"
+          />
+          <div style="background-color: blue; color: white">
+            <span id="slide-title" style="font-weight: bold; font-size: 24px"
+              >Cabo San Lucas</span
+            >
+            <br />
+            <span id="slide-body">Great spas and great views</span>
+          </div>
+        </div>
+        <div id="buttons" class="flex">
+          <button id="prev-button">Previous</button>
+          <button id="next-button">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
